@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*Base styling - This should be applied on all pages for cohesiveness */
+
+html{
+    height:100%;
+    background-image: url(/Images/waterBackground.jpg);
+    background-size:cover;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+}

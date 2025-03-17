@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+div#aboutMe{
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: bisque;
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+}
+
+div#aboutMe img{
+    display: flex;
+    border-radius: 4%;
+    width: 15%;
+}
+
+div#aboutMe p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.2;
+}
