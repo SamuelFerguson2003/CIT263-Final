@@ -1,7 +1,9 @@
 @charset "utf-8";
 
+
 div#aboutMe{
     display: flex;
+    margin: 2%;
     padding: 20px;
     border-radius: 15px;
     background-color: bisque;
@@ -15,6 +17,7 @@ div#aboutMe img{
     width: 15%;
     padding-right: 15px;
 }
+
 
 div#aboutMe p{
     text-align: left;
