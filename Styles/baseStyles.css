@@ -8,8 +8,11 @@ html{
     background-size:cover;
 }
 
+*{
+    box-sizing: border-box;
+}
 
-body{
+.main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -17,8 +20,14 @@ body{
 
 header{
     position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
     background-color: bisque;
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
 }
+
 
 .navigation ul li{
     display: inline;
@@ -35,7 +44,6 @@ header{
 
 footer{
     width: 100%;
-    position: absolute;
     left:0;
     bottom:0;
     padding-top: 10px;
