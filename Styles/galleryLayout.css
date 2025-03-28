@@ -3,15 +3,23 @@
 
 .fullGallery{
     display: flex;
+    flex-wrap: wrap;
     padding: 5%;
 }
+
+.galleryColumn{
+    flex:25%;
+    width: 25%;
+    padding: 0 4px;
+}
+
 .displayBox{
     background-color: bisque;
     padding: 0 6px;
     margin: 5px;
     border-radius: 25px;
     text-align: center;
-    width: max-content;
+    width: 100%;
 }
 
 .displayBox:hover{
@@ -30,7 +38,15 @@
 }
 
 @media (max-width: 800px){
-    .fullGallery{
-        flex-direction: column;
+    .galleryColumn{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .galleryColumn{
+        flex:100%;
+        max-width: 100%;
     }
 }

@@ -52,3 +52,10 @@ footer{
     color: white;
     background-color: darkslategrey;
 }
+
+@media (width < 800px){
+    header{
+        position: unset;
+        width:100%;
+    }
+}
