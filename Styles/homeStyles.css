@@ -1,7 +1,6 @@
 @charset "utf-8";
 
-
-div#carousel{
+div#carousel {
     display: -webkit-flex;
     display: flex;
     position: relative;
@@ -16,20 +15,20 @@ div#carousel{
                 rgb(51, 51, 51) -15px 0px 25px;
 }
 
-.slides{
+.slides {
     display: none;
     overflow: hidden;
     border-radius: 15px;
 }
 
-.slides img{
+.slides img {
     width: 1200px;
     position: relative;
     top: -50%;
 }
 
 
-.slides p{
+.slides p {
     background-color: rgba(0,0,0,0.5);
     color: antiquewhite;
     position: absolute;
@@ -44,14 +43,14 @@ div#carousel{
     text-align: center;
 }
 
-.slides p a{
+.slides p a {
     background-color: rgb(16, 163, 121);
     color: antiquewhite;
     padding: 0 1%;
     border-radius: 5px;
 }
 
-div#aboutMe{
+div#aboutMe {
     display: -webkit-flex;
     display: flex;
     margin: 2%;
@@ -62,18 +61,18 @@ div#aboutMe{
                 rgb(51, 51, 51) -15px 0px 25px;
 }
 
-div#aboutMe img{
+div#aboutMe img {
     width: 16%;
     object-fit: contain;
     padding-right: 15px;
 }
 
-div#aboutMe h1{
+div#aboutMe h1 {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-div#aboutMe p{
+div#aboutMe p {
     text-align: left;
     text-indent: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,26 +80,26 @@ div#aboutMe p{
     line-height: 1.2;
 }
 
-@media (width < 800px){
-    div#aboutMe{
+@media (width < 800px) {
+    div#aboutMe {
         display: block;
         text-align: center;
         margin-bottom: 5px;
     }
 
-    div#aboutMe img{
+    div#aboutMe img {
         width: 80%;
         object-fit: contain;
         padding: 15px;
     }
 
-    div#aboutMe p{
+    div#aboutMe p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 15px;
         line-height: 1.2;
     }
 
-    div#aboutMe h1{
+    div#aboutMe h1 {
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
