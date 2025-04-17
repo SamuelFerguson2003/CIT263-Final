@@ -17,6 +17,7 @@ html {
     background-image: url(../Images/waterBackground.jpg);
     background-size: cover;
     height: 100%;
+    font-family: Poppins, Verdana, Geneva, sans-serif;
 }
 
 body {
@@ -43,6 +44,7 @@ header, footer {
 .navbar {
     background-color: #FAF9F6;
     padding: 0 20px;
+    min-height: 2em;
     clear: both;
 }
 
@@ -58,15 +60,18 @@ header, footer {
 }
 
 .nav-list a {
-    text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-weight: 400px;
-    font-family: Poppins, Verdana, Geneva, sans-serif;   
 }
 
-a#currentPage {
+nav.navbar a#currentPage {
     color: #DBA845;
+}
+
+nav.navbar a:hover, nav.navbar a:active {
+    color: #C98A00;
+    /* background-color: #F1EDE4; */
 }
 
 
@@ -83,9 +88,10 @@ a#currentPage {
     background: rgba(172, 20, 20, 0.75);
     color: white;
     text-align: center;
-    font-family: Poppins, Verdana, Geneva, sans-serif;   
     font-size: 30px;
 }
+
+/* Default Image Styling, excluding the Nav Icon */
 
 img:not(#navicon) {
     width: 100%;
