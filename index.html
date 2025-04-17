@@ -6,22 +6,27 @@
     <title>Sarah Ferguson - Home</title>
     <link rel="stylesheet" href="./Styles/resetStyles.css">
     <link rel="stylesheet" href="./Styles/baseStyles.css">
+    <link rel="stylesheet" href="./Styles/navIcon.css">
     <link rel="stylesheet" href="./Styles/homeStyles.css">
     <script src="./Scripts/slideshowScripts.js"></script>
 </head>
-<body>
-    <section class="main">
-        <header>
-            <nav class="navigation">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a href="./gallery.html">Gallery</a></li>
-                    <li><a href="./classLanding.html">Classes</a></li>
-                    <li><a href="./storefront.html">Shop</a></li>
-                </ul>
-            </nav>
-        </header>
 
+<body>
+    <header>
+        <nav class="navbar">
+            <a id="navicon" href="#"><img src="Images/tempNavIcon.png" id="navicon" alt=""></a>
+            <ul class="nav-list">
+                <li><a href="./index.html" id="currentPage">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./classLanding.html">Classes</a></li>
+                <li><a href="./storefront.html">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
         <div id="carousel">
             <div class="slides">
                 <img src="Images/whitePlanetDemo.jpg" onload="showSlides();">
