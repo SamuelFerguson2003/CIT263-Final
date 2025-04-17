@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(fonts/Poppins-Regular.ttf) format('truetype');
+    src: url(Fonts/Poppins-Regular.ttf) format('truetype');
 }
 
 html {
     height:100%;
-    background-image: url(../images/waterBackground.jpg);
+    background-image: url(../Images/waterBackground.jpg);
     background-size:cover;
 }
 
