@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./Styles/resetStyles.css">
     <link rel="stylesheet" href="./Styles/baseStyles.css">
     <link rel="stylesheet" href="./Styles/navIcon.css">
+    <script src="Scripts/classSelection.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,8 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./aboutMe.html">About</a></li>
                 <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./classLanding.html">Classes</a></li>
-                <li><a href="./storefront.html" id="currentPage">Shop</a></li>
+                <li><a href="./classLanding.html" id="currentPage">Classes</a></li>
+                <li><a href="./storefront.html">Shop</a></li>
                 <li><a href="./contactPage.html">Contact</a></li>
             </ul>
         </nav>
@@ -28,10 +29,26 @@
 
         <h1 class="alert">Notice: No new classes are being offered at the moment due to personal reasons. All previous classes are available for purchase! </h1>
 
-        <div>
+        <select id="yearList">
+            <option value="select">Select a year</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+        </select>
+
+        <div id="year2025">
             <img src="Images/ClassDescriptions/vanGoghInfo.jpg" alt="Van Gogh Class Info">
             <img src="Images/ClassDescriptions/bonusPortraitInfo.jpg" alt="Portrait Class Info">
             <img src="Images/ClassDescriptions/antarcticaCourseInfo.jpg" alt="White Continent Class Info">
+        </div>
+
+        <div id="year2024">
+            <img src="Images/ClassDescriptions/autumnInfo.jpg" alt="Autumn Splendor Info">
+            <img src="Images/ClassDescriptions/colorLabInfo.jpg" alt="Color Lab Info">
+            <img src="Images/ClassDescriptions/yellowstoneInfo.jpg" alt="Yellowstone Info">
+            <img src="Images/ClassDescriptions/flowInfo.jpg" alt="Ebb & Flow Info">
+            <img src="Images/ClassDescriptions/floralsInfo.jpg" alt="Watercolor Florals Info">
+            <img src="Images/ClassDescriptions/birdsInfo.jpg" alt="Painting Birds in Watercolor Info">
+            <img src="Images/ClassDescriptions/westVirginiaInfo.jpg" alt="West Virginia Info">
         </div>
 
     </section>

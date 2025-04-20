@@ -31,7 +31,8 @@ header, footer {
     width: 100%;
 }
 
-/* Reset, do not touch! */
+/* Reset, do not touch! 
+   "You can't stop me!" - Sam*/
 
 * {
     margin: 0;
@@ -89,6 +90,21 @@ nav.navbar a:hover, nav.navbar a:active {
     color: white;
     text-align: center;
     font-size: 30px;
+}
+
+/*for class divs */
+#year2025,
+#year2024 {
+    display: none;
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    font-family: Poppins, Verdana, Geneva, sans-serif;
+    background-color: beige;
+    border-radius: 15px;
 }
 
 /* Default Image Styling, excluding the Nav Icon */
