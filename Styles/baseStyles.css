@@ -21,6 +21,7 @@
 html {
     background-image: url(../Images/waterBackground.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     font-family: Poppins, Verdana, Geneva, sans-serif;
 }
@@ -30,6 +31,7 @@ body {
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
+    padding-bottom: 20px;
 }
  
 header, footer {
