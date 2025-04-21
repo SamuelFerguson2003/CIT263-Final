@@ -24,7 +24,7 @@ div#carousel {
     margin-bottom: 2%;
     padding: 10px;
     border-radius: 15px;
-    background-color: #FAF9F6;
+    background-color: #F8FEF2;
     box-shadow: rgb(51, 51, 51) 15px 0px 25px,
                 rgb(51, 51, 51) -15px 0px 25px;
 }
@@ -58,8 +58,8 @@ div#carousel {
 }
 
 .slides p a {
-    background-color: rgb(16, 163, 121);
-    color: antiquewhite;
+    background-color: #386D4B;
+    color: #F8FEF2;
     padding: 0 1%;
     border-radius: 5px;
 }
@@ -70,7 +70,7 @@ div#aboutMe {
     margin: 2%;
     padding: 20px;
     border-radius: 15px;
-    background-color: #FAF9F6;
+    background-color: #F8FEF2;
     box-shadow: rgb(51, 51, 51) 15px 0px 25px,
                 rgb(51, 51, 51) -15px 0px 25px;
 }
