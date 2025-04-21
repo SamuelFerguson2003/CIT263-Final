@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-/* Base styling - This should be applied on all pages for cohesiveness */
-
-
+/* BASE STYLING - SHOULD BE APPLIED TO ALL PAGES FOR COHESIVENESS */
 
 /* Font Imports */
 
@@ -49,10 +47,11 @@ h1 {
     box-sizing: border-box;
 }
 
-/* Updated Navigation Styles */
+/* Navigation Styles */
 
 .navbar {
-    background-color: #FAF9F6;
+    /*background-color: #FAF9F6;*/
+    background-color: #F8FEF2;
     padding: 0 20px;
     min-height: 2em;
     clear: both;
@@ -81,6 +80,7 @@ nav.navbar a#currentPage {
 
 nav.navbar a:hover, nav.navbar a:active {
     color: #C98A00;
+    /*background-color: #EBFCD9; */
     /* background-color: #F1EDE4; */
 }
 
@@ -107,7 +107,7 @@ nav.navbar a:hover, nav.navbar a:active {
     display: none;
 }
 
-select{
+select {
     width: 100%;
     padding: 15px;
     text-align: left;
@@ -125,7 +125,6 @@ img:not(#navicon) {
     margin-bottom: 2%;
 }
 
-
 /* Footer Styles */ 
 
 footer {
@@ -137,7 +136,7 @@ footer {
     padding-bottom: 10px;
     text-align: center;
     color: white;
-    background-color: darkslategrey;
+    background-color: #244248;
 }
 
 /* Moble Devices up to 480px */
