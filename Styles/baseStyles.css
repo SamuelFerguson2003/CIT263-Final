@@ -11,6 +11,11 @@
     src: url(Fonts/Poppins-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(Fonts/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+}
+
 /* HTML and Body Styles */
 
 html {
@@ -29,6 +34,10 @@ body {
  
 header, footer {
     width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
 }
 
 /* Reset, do not touch! 
@@ -107,6 +116,7 @@ select{
     border-radius: 15px;
 }
 
+
 /* Default Image Styling, excluding the Nav Icon */
 
 img:not(#navicon) {
@@ -115,7 +125,11 @@ img:not(#navicon) {
     margin-bottom: 2%;
 }
 
+
+/* Footer Styles */ 
+
 footer {
+    position: fixed;
     width: 100%;
     left:0;
     bottom:0;

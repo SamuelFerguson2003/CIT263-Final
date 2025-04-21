@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+/* Font Imports */
+
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(Fonts/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+}
+
+/* Carousel Styles */
+
 div#carousel {
     display: -webkit-flex;
     display: flex;
@@ -37,7 +51,8 @@ div#carousel {
     height:max-content;
     border-radius: 2px;
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: Poppins, Verdana, Geneva, sans-serif;
     padding: 8px 8px;
     text-align: center;
 }
@@ -68,14 +83,16 @@ div#aboutMe img {
 
 div#aboutMe h1 {
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Playfair Display', serif;
 }
 
 div#aboutMe p {
     text-align: left;
     text-indent: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    font-family: Poppins, Verdana, Geneva, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -93,13 +110,15 @@ div#aboutMe p {
     }
 
     div#aboutMe p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Poppins, Verdana, Geneva, sans-serif;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
         font-size: 15px;
         line-height: 1.2;
     }
 
     div#aboutMe h1 {
         font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Playfair Display', serif;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     }
 }

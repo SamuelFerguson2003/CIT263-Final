@@ -2,9 +2,7 @@
 
 /* Nav Icon Styles */
 
-
-
-/* Standard */
+/* Default - hide icon for Desktop & Larger Screens */
 
 a#navicon {
     display: none;
