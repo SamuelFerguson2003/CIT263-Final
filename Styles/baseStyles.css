@@ -150,15 +150,40 @@ img:not(#navicon) {
 /* Footer Styles */ 
 
 footer {
+    padding: 1rem;
+    background-color: #244248;
+    color: white;
     position: fixed;
     width: 100%;
     left:0;
     bottom:0;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+footer .social-media-icons ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+footer .social-media-icons li {
+    margin-right: 1rem; 
+}
+
+footer .social-media-icons li:last-of-type {
+    margin-right: 0;
+}
+
+footer .social-media-icons .fa {
+    font-size: 1.3rem;
     color: white;
-    background-color: #244248;
 }
 
 /* Moble Devices up to 480px */
